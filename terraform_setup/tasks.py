@@ -62,3 +62,4 @@ def delete_task(task_id):
     tasks_table.delete_item(Key={'task_id': task_id})
     flash('Task deleted successfully!', 'danger')
     return redirect(url_for('tasks.home'))
+
