@@ -32,3 +32,4 @@ output "sns_topic_arn" {
     value = aws_sns_topic.todo_notifications.arn
     description = "The ARN of the sns Topic"
 }
+
