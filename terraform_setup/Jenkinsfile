@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage("Checking the code") {
             steps {
-                git branch: "main", url: "https://github.com/Sangamesh080/Python-projects"
+                git branch: "main", url: "https://github.com/manojsrinivasan04-hue/Use_EC2_Jenkins_Automating_Flash_Todo_List_App.git"
             }
         }
 
